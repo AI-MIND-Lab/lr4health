@@ -200,6 +200,37 @@
       line-height: 1.35;
     }
 
+    .schedule-grid {
+      display: grid;
+      gap: 16px;
+      margin-top: 30px;
+    }
+    
+    .schedule-item {
+      display: grid;
+      grid-template-columns: 170px 1fr;
+      gap: 20px;
+      align-items: center;
+      background: white;
+      border-left: 6px solid #0f766e;
+      border-radius: 14px;
+      padding: 18px 22px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    }
+    
+    .schedule-time {
+      font-weight: 700;
+      color: #0f766e;
+      font-size: 16px;
+    }
+    
+    .schedule-event {
+      font-size: 17px;
+      color: #0f172a;
+      font-weight: 600;
+    }
+    
     footer {
       margin-top: 100px;
       padding: 40px;
@@ -425,6 +456,58 @@
       <h2>Call for Papers</h2>
       <p>We invite submissions on longitudinal clinical reasoning, multimodal healthcare AI, retrieval-grounded inference, temporal reasoning systems, uncertainty-aware clinical decision support, healthcare foundation models, deployment studies, clinician-AI interaction, and trustworthy AI for healthcare.</p>
       <p>Submission instructions and important dates will be announced soon.</p>
+    </section>
+
+    <section id="schedule">
+      <h2>Tentative Schedule</h2>
+      <p>The workshop will include keynote talks, spotlight presentations, panel discussions, demonstrations, poster sessions, and interactive discussions. The schedule is tentative and may be updated.</p>
+    
+      <div class="schedule-grid">
+        <div class="schedule-item">
+          <div class="schedule-time">8:30 AM – 8:40 AM</div>
+          <div class="schedule-event">Opening Remarks</div>
+        </div>
+    
+        <div class="schedule-item">
+          <div class="schedule-time">8:40 AM – 10:10 AM</div>
+          <div class="schedule-event">Keynote Talks and Spotlight Session I</div>
+        </div>
+    
+        <div class="schedule-item">
+          <div class="schedule-time">10:10 AM – 10:30 AM</div>
+          <div class="schedule-event">Break</div>
+        </div>
+    
+        <div class="schedule-item">
+          <div class="schedule-time">10:30 AM – 12:00 PM</div>
+          <div class="schedule-event">Keynote Talks and Spotlight Session II</div>
+        </div>
+    
+        <div class="schedule-item">
+          <div class="schedule-time">12:00 PM – 1:00 PM</div>
+          <div class="schedule-event">Lunch Break</div>
+        </div>
+    
+        <div class="schedule-item">
+          <div class="schedule-time">1:00 PM – 2:00 PM</div>
+          <div class="schedule-event">Panel Discussion</div>
+        </div>
+    
+        <div class="schedule-item">
+          <div class="schedule-time">2:15 PM – 3:30 PM</div>
+          <div class="schedule-event">Keynote Talks and Benchmark Discussion</div>
+        </div>
+    
+        <div class="schedule-item">
+          <div class="schedule-time">3:30 PM – 5:00 PM</div>
+          <div class="schedule-event">Poster Session and Networking</div>
+        </div>
+    
+        <div class="schedule-item">
+          <div class="schedule-time">5:00 PM – 5:30 PM</div>
+          <div class="schedule-event">Closing Discussion and Remarks</div>
+        </div>
+      </div>
     </section>
 
 <section id="organizers">
